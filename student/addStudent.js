@@ -1,6 +1,6 @@
 document.querySelectorAll('input[type="number"]').forEach((input) => {
   input.addEventListener("keydown", function (e) {
-    if (e.key === "e" || e.key === "E") {
+    if (e.key === "e" || e.key === "E" || e.key === "+") {
       e.preventDefault();
     }
   });
